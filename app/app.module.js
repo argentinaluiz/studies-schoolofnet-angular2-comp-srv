@@ -15,7 +15,7 @@ var task_list_component_1 = require("./task/task-list.component");
 var task_new_component_1 = require("./task/task-new.component");
 var app_routing_1 = require("./app.routing");
 var task_service_1 = require("./task/task.service");
-// import {AlertModule} from "ngx-bootstrap";  
+var ngx_bootstrap_1 = require("ngx-bootstrap");
 var message_service_1 = require("./message.service");
 var AppModule = (function () {
     function AppModule() {
@@ -25,8 +25,8 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [
-            platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing
-            // , AlertModule
+            platform_browser_1.BrowserModule, forms_1.FormsModule, app_routing_1.routing,
+            ngx_bootstrap_1.AlertModule.forRoot()
         ],
         declarations: [
             app_component_1.AppComponent, task_edit_component_1.TaskEditComponent, task_list_component_1.TaskListComponent, task_new_component_1.TaskNewComponent

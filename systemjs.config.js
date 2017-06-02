@@ -24,7 +24,7 @@
             'rxjs': 'npm:rxjs',
             'moment': 'npm:moment/moment.js',
             // 'ng2-bootstrap/ng2-bootstrap': 'npm:ng2-bootstrap/bundles/ngx-bootstrap.umd.min.js'
-            // 'ngx-bootstrap': 'npm:ngx-bootstrap/bundles/ngx-bootstrap.umd.min.js'
+             'ngx-bootstrap': 'npm:ngx-bootstrap/bundles/ngx-bootstrap.umd.min.js'
         },
         // como carregar os arquivos quando não declaramos nomes ou extensões
         packages: {

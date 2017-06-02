@@ -7,13 +7,13 @@ import {TaskListComponent} from "./task/task-list.component";
 import {TaskNewComponent} from "./task/task-new.component";
 import {routing} from "./app.routing";
 import {TaskService} from "./task/task.service";
-// import {AlertModule} from "ngx-bootstrap";  
+import {AlertModule} from 'ngx-bootstrap';  
 import {MessageService} from "./message.service";
 
 @NgModule({
     imports: [
         BrowserModule, FormsModule, routing
-        // , AlertModule
+        , AlertModule.forRoot()
     ],
     declarations: [
             AppComponent, TaskEditComponent, TaskListComponent, TaskNewComponent
